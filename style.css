@@ -1,0 +1,1379 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+/*navbar*/
+.nav-bar{
+    background-color: rgb(148, 148, 244);
+    height: 70px;
+    border-radius: 20px;
+}
+.nav-img{
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+    margin-left:12vw;
+    margin-top: 5px;
+}
+
+.about{
+    margin-left: 2vw;
+}
+.coding-chef{
+    margin-left:1vw;
+    margin-top: 3vh;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 900;
+}
+.person{
+    margin-left:3vw;
+}
+.list{
+        display:flex;
+        list-style-type: none;
+        margin-left: 24vw;
+        margin-top:2vh;
+        margin-right:20px;
+        font-weight: 600;
+        
+}
+.list a{
+        color:rgb(9, 9, 9);
+        margin-left:10px;
+        font-size:20px;
+        
+        border-bottom:5px solid transparent;
+        transition:all .55s ease;
+        text-decoration: none;
+}
+.list a:hover{
+        border-bottom: #fff;
+        background-color: rgb(113, 113, 244);
+        border-radius: 10px;
+        text-decoration: none;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:#0d0c0c;
+    }
+.learn-programming{
+    margin-left:12vw;
+    margin-top:4vh;
+}
+.learn{
+    font-weight: 800;
+    font-size: 60px;
+    margin-top: 10vh;
+}
+.learn-text{
+    margin-top:2vh;
+}
+.text{
+    margin-top: 7vh;
+    font-size: 30px;
+    font-weight: 500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: rgb(127, 127, 243);
+}
+.place{
+    margin-top:3vh;
+}
+.buttonone{
+    border-radius: 5px;
+    background-color: rgb(148, 148, 244);
+    color: #fff;
+}
+.tick{
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+}
+.popup{
+    width:400px;
+    background:#fff;
+    border-radius:6px;
+    position:absolute;
+    top:0;
+    left:50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color:#333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+
+}
+.open-popup{
+    visibility: visible;
+    top:50%;
+    transform: translate(-50%,-50%) scale(1);
+}
+.popup img{
+    
+    margin-top:50px;
+    border-radius:50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, alpha);
+}
+.popup h2{
+    font-size:38px;
+    font-weight:500;
+    margin:30px 0 10px;
+}
+.popup button{
+    width:100%;
+    margin-top:20px;
+    padding:10px 0;
+    background: #5eb4f7;
+    color:#fff;
+    border:0;
+    outline:none;
+    font-size:18px;
+    border-radius: 4px;
+    cursor:pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.choose-start{
+    margin-left:6vw;
+}
+.choose-name{
+    text-align: center;
+    margin-top:5vh;
+    font-size:30px;
+    font-weight: 700;
+}
+.choose-para{
+    font-size:17px;
+    text-align:center
+}
+.web{
+    margin-left:45vw;
+    margin-top:4vh;
+    font-weight: 700;
+}
+.py{
+    margin-top:0vh;
+    margin-left:14vw;
+}
+.python{
+    border-style:groove;
+    width:7vw;
+    border-radius: 10px;
+    margin-right: 2vw;
+}
+.py-symbol{
+    margin-left: 6px;
+    margin-top: 6px;
+    font-size:15px;
+    color:rgb(119, 119, 227);
+    text-decoration: none;
+    
+}
+.languages{
+    margin-left: 20vw;
+    margin-top: 5vh;
+}
+.second-img{
+    height:75vh;
+    margin-left:10vw;
+    margin-top: 20vh;
+    
+}
+.compiler-text{
+    margin-top:30vh;
+    font-size:30px;
+    font-weight: 700;
+}
+.python-compiler{
+    border-style:groove;
+    width:12vw;
+    border-radius: 5px;
+    margin-top: 6vh;
+}
+.python-compiler-text{
+    margin-left:12px;
+}
+.com{
+    text-decoration: none;
+}
+.pyo{
+    margin-left:10px;
+}
+.python-img{
+    height:20vh;
+}
+.python-course{
+    margin-left:13vw;
+    margin-top: 10vh;
+}
+.about-python-text{
+    margin-left:3vw;
+    margin-top: 5vh;
+    font-weight: 800;
+}
+.about-python-text:hover{
+    color:#4753d8;
+
+}
+.py-details{
+    margin-left:3vw;
+    margin-top: 3vh;
+    color: #11578c;
+    
+}
+
+.tutorials{
+    font-weight: 900;
+    
+}
+.tutorials:hover{
+    color:#dfdf64;
+    
+}
+.coursestwo{
+    margin-left:70px;
+    font-weight: 900;
+}
+.coursestwo:hover{
+    color:rgb(223, 223, 100);
+}
+.questions{
+    margin-left: 30px;
+    font-weight: 900;
+    text-decoration: none;
+    color: #11578c;
+}
+.questions:hover{
+    color:rgb(223, 223, 100);
+}
+.py-matter{
+    margin-top: 5vh;
+    margin-left: 13vw;
+    font-size:20px;
+    width:70vw;
+    color:#2971a8
+}
+.py-roadmap{
+    margin-left:23vw;
+    margin-top:4vw;
+}
+.py-paragraph{
+    margin-left:14vw;
+    margin-top:9vh;
+}
+.l{
+    color:#2d7180;
+}
+.o{
+    text-decoration: none;
+    margin-left:10px;
+}
+.py-tutorials{
+    width:19vw;
+    border-style: groove;
+    border-radius: 10px;
+    margin-left:13vw;
+    margin-top: 100px;
+}
+.page{
+    margin-left:10px;
+    margin-top: 10px;
+    font-weight: 700;
+    
+}
+.py-tutorialss{
+    width:30vw;
+    border-style: groove;
+    border-radius: 10px;
+    margin-left:13vw;
+    margin-top: 100px;
+}
+.ss{
+    margin-left:45vw;
+    margin-top:10px;
+}
+.o:hover{
+    color:rgb(94, 138, 225);
+}
+.loading-wave {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 29px;
+  }
+  
+  .loading-bar {
+    width: 20px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #3498db;
+    border-radius: 5px;
+    animation: loading-wave-animation 1s ease-in-out infinite;
+  }
+  
+  .loading-bar:nth-child(2) {
+    animation-delay: 0.1s;
+  }
+  
+  .loading-bar:nth-child(3) {
+    animation-delay: 0.2s;
+  }
+  
+  .loading-bar:nth-child(4) {
+    animation-delay: 0.3s;
+  }
+  
+  @keyframes loading-wave-animation {
+    0% {
+      height: 10px;
+    }
+  
+    50% {
+      height: 50px;
+    }
+  
+    100% {
+      height: 10px;
+    }
+  }
+/*pagethree*/
+.question-head{
+    margin-left:13vw;
+    margin-top:9vh;
+}
+.questiontext{
+    font-weight:800;
+}
+.radio-input input {
+    display: none;
+  }
+  
+  .radio-input {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    width: 320px;
+  }
+  
+  .info {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .question {
+    color: rgb(49, 49, 49);
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 800;
+  }
+  
+  .steps {
+    background-color: rgb(0, 0, 0);
+    padding: 4px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+  }
+  
+  .radio-input  label {
+    display: flex;
+    background-color: #fff;
+    padding: 14px;
+    margin: 8px 0 0 0;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(187, 187, 187, 0.164);
+    color: #000;
+    transition: .3s ease;
+  }
+  .radio-input  label:hover {
+    background-color: rgba(24, 24, 24, 0.13);
+    border: 1px solid #bbb;
+  }
+  
+  .result {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    display: none;
+    transition: display .4s ease;
+  }
+  
+  .result.success {
+    color: green;
+  }
+  
+  .result.error {
+    color: red;
+  }
+  
+  .radio-input input:checked + label {
+    border-color: red;
+    color: red;
+  }
+  
+  .radio-input input[value="value-2"]:checked + label {
+    border-color: rgb(22, 245, 22);
+    color: rgb(16, 184, 16);
+  }
+  
+  .radio-input:has(input[value="value-2"]:checked) .result.success {
+    display: flex;
+  }
+  
+  .radio-input:has(input:not([value="value-2"]):checked ) .result.error {
+    display: flex;
+  }
+/*second*/
+
+.radio-input input {
+    display: none;
+  }
+  
+  .radio-input {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    width: 320px;
+  }
+  
+  .info {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .question {
+    color: rgb(49, 49, 49);
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 800;
+  }
+  
+  .steps {
+    background-color: rgb(0, 0, 0);
+    padding: 4px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+  }
+  
+  .radio-input  label {
+    display: flex;
+    background-color: #fff;
+    padding: 14px;
+    margin: 8px 0 0 0;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(187, 187, 187, 0.164);
+    color: #000;
+    transition: .3s ease;
+  }
+  .radio-input  label:hover {
+    background-color: rgba(24, 24, 24, 0.13);
+    border: 1px solid #bbb;
+  }
+  
+  .result {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    display: none;
+    transition: display .4s ease;
+  }
+  
+  .result.successs {
+    color: green;
+  }
+  
+  .result.errorr {
+    color: red;
+  }
+  
+  .radio-input input:checked + label {
+    border-color: red;
+    color: red;
+  }
+  
+  .radio-input input[value="value-11"]:checked + label {
+    border-color: rgb(22, 245, 22);
+    color: rgb(16, 184, 16);
+  }
+  
+  .radio-input:has(input[value="value-11"]:checked) .result.successs{
+    display: flex;
+  }
+  
+  .radio-input:has(input:not([value="value-11"]):checked ) .result.errorr {
+    display: flex;
+  }
+  /**/
+  .radio-input input {
+    display: none;
+  }
+  
+  .radio-input {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    width: 320px;
+  }
+  
+  .info {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .question {
+    color: rgb(49, 49, 49);
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 800;
+  }
+  
+  .steps {
+    background-color: rgb(0, 0, 0);
+    padding: 4px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+  }
+  
+  .radio-input  label {
+    display: flex;
+    background-color: #fff;
+    padding: 14px;
+    margin: 8px 0 0 0;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(187, 187, 187, 0.164);
+    color: #000;
+    transition: .3s ease;
+  }
+  .radio-input  label:hover {
+    background-color: rgba(24, 24, 24, 0.13);
+    border: 1px solid #bbb;
+  }
+  
+  .result {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    display: none;
+    transition: display .4s ease;
+  }
+  
+  .result.successss {
+    color: green;
+  }
+  
+  .result.errorrr {
+    color: red;
+  }
+  
+  .radio-input input:checked + label {
+    border-color: red;
+    color: red;
+  }
+  
+  .radio-input input[value="value-333"]:checked + label {
+    border-color: rgb(22, 245, 22);
+    color: rgb(16, 184, 16);
+  }
+  
+  .radio-input:has(input[value="value-333"]:checked) .result.successss{
+    display: flex;
+  }
+  
+  .radio-input:has(input:not([value="value-333"]):checked ) .result.errorrr {
+    display: flex;
+  }
+  /**/
+  .radio-input input {
+    display: none;
+  }
+  
+  .radio-input {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+   
+    width: 320px;
+  }
+  
+  .info {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .question {
+    color: rgb(49, 49, 49);
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 800;
+  }
+  
+  .steps {
+    background-color: rgb(0, 0, 0);
+    padding: 4px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+  }
+  
+  .radio-input  label {
+    display: flex;
+    background-color: #fff;
+    padding: 14px;
+    margin: 8px 0 0 0;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(187, 187, 187, 0.164);
+    color: #000;
+    transition: .3s ease;
+  }
+  .radio-input  label:hover {
+    background-color: rgba(24, 24, 24, 0.13);
+    border: 1px solid #bbb;
+  }
+  
+  .result {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    display: none;
+    transition: display .4s ease;
+  }
+  
+  .result.successs {
+    color: green;
+  }
+  
+  .result.errorr {
+    color: red;
+  }
+  
+  .radio-input input:checked + label {
+    border-color: red;
+    color: red;
+  }
+  
+  .radio-input input[value="value-11"]:checked + label {
+    border-color: rgb(22, 245, 22);
+    color: rgb(16, 184, 16);
+  }
+  
+  .radio-input:has(input[value="value-11"]:checked) .result.successs{
+    display: flex;
+  }
+  
+  .radio-input:has(input:not([value="value-11"]):checked ) .result.errorr {
+    display: flex;
+  }
+  /**/
+  .radio-input input {
+    display: none;
+  }
+  
+  .radio-input {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    
+    width: 320px;
+  }
+  
+  .info {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .question {
+    color: rgb(49, 49, 49);
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 800;
+  }
+  
+  .steps {
+    background-color: rgb(0, 0, 0);
+    padding: 4px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+  }
+  
+  .radio-input  label {
+    display: flex;
+    background-color: #fff;
+    padding: 14px;
+    margin: 8px 0 0 0;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(187, 187, 187, 0.164);
+    color: #000;
+    transition: .3s ease;
+  }
+  .radio-input  label:hover {
+    background-color: rgba(24, 24, 24, 0.13);
+    border: 1px solid #bbb;
+  }
+  
+  .result {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    display: none;
+    transition: display .4s ease;
+  }
+  
+  .result.successsss{
+    color: green;
+  }
+  
+  .result.errorrrrr {
+    color: red;
+  }
+  
+  .radio-input input:checked + label {
+    border-color: red;
+    color: red;
+  }
+  
+  .radio-input input[value="value-1111"]:checked + label {
+    border-color: rgb(22, 245, 22);
+    color: rgb(16, 184, 16);
+  }
+  
+  .radio-input:has(input[value="value-1111"]:checked) .result.successsss{
+    display: flex;
+  }
+  
+  .radio-input:has(input:not([value="value-1111"]):checked ) .result.errorrrrr {
+    display: flex;
+  }
+/*five*/
+.radio-input input {
+    display: none;
+  }
+  
+  .radio-input {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+ 
+    width: 320px;
+  }
+  
+  .info {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .question {
+    color: rgb(49, 49, 49);
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 800;
+  }
+  
+  .steps {
+    background-color: rgb(0, 0, 0);
+    padding: 4px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+  }
+  
+  .radio-input  label {
+    display: flex;
+    background-color: #fff;
+    padding: 14px;
+    margin: 8px 0 0 0;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(187, 187, 187, 0.164);
+    color: #000;
+    transition: .3s ease;
+  }
+  .radio-input  label:hover {
+    background-color: rgba(24, 24, 24, 0.13);
+    border: 1px solid #bbb;
+  }
+  
+  .result {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    display: none;
+    transition: display .4s ease;
+  }
+  
+  .result.successs {
+    color: green;
+  }
+  
+  .result.errorr {
+    color: red;
+  }
+  
+  .radio-input input:checked + label {
+    border-color: red;
+    color: red;
+  }
+  
+  .radio-input input[value="value-11"]:checked + label {
+    border-color: rgb(22, 245, 22);
+    color: rgb(16, 184, 16);
+  }
+  
+  .radio-input:has(input[value="value-11"]:checked) .result.successs{
+    display: flex;
+  }
+  
+  .radio-input:has(input:not([value="value-11"]):checked ) .result.errorr {
+    display: flex;
+  }
+  /**/
+  .radio-input input {
+    display: none;
+  }
+  
+  .radio-input {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+  
+    width: 320px;
+  }
+  
+  .info {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .question {
+    color: rgb(49, 49, 49);
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 800;
+  }
+  
+  .steps {
+    background-color: rgb(0, 0, 0);
+    padding: 4px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+  }
+  
+  .radio-input  label {
+    display: flex;
+    background-color: #fff;
+    padding: 14px;
+    margin: 8px 0 0 0;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(187, 187, 187, 0.164);
+    color: #000;
+    transition: .3s ease;
+  }
+  .radio-input  label:hover {
+    background-color: rgba(24, 24, 24, 0.13);
+    border: 1px solid #bbb;
+  }
+  
+  .result {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    display: none;
+    transition: display .4s ease;
+  }
+  
+  .result.successssss {
+    color: green;
+  }
+  
+  .result.errorrrrrr {
+    color: red;
+  }
+  
+  .radio-input input:checked + label {
+    border-color: red;
+    color: red;
+  }
+  
+  .radio-input input[value="value-22222"]:checked + label {
+    border-color: rgb(22, 245, 22);
+    color: rgb(16, 184, 16);
+  }
+  
+  .radio-input:has(input[value="value-22222"]:checked) .result.successssss{
+    display: flex;
+  }
+  
+  .radio-input:has(input:not([value="value-22222"]):checked ) .result.errorrrrrr {
+    display: flex;
+  }
+/*six*/
+.radio-input input {
+    display: none;
+  }
+  
+  .radio-input {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    
+    width: 320px;
+  }
+  
+  .info {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .question {
+    color: rgb(49, 49, 49);
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 800;
+  }
+  
+  .steps {
+    background-color: rgb(0, 0, 0);
+    padding: 4px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+  }
+  
+  .radio-input  label {
+    display: flex;
+    background-color: #fff;
+    padding: 14px;
+    margin: 8px 0 0 0;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(187, 187, 187, 0.164);
+    color: #000;
+    transition: .3s ease;
+  }
+  .radio-input  label:hover {
+    background-color: rgba(24, 24, 24, 0.13);
+    border: 1px solid #bbb;
+  }
+  
+  .result {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    display: none;
+    transition: display .4s ease;
+  }
+  
+  .result.successs {
+    color: green;
+  }
+  
+  .result.errorr {
+    color: red;
+  }
+  
+  .radio-input input:checked + label {
+    border-color: red;
+    color: red;
+  }
+  
+  .radio-input input[value="value-11"]:checked + label {
+    border-color: rgb(22, 245, 22);
+    color: rgb(16, 184, 16);
+  }
+  
+  .radio-input:has(input[value="value-11"]:checked) .result.successs{
+    display: flex;
+  }
+  
+  .radio-input:has(input:not([value="value-11"]):checked ) .result.errorr {
+    display: flex;
+  }
+  /**/
+  .radio-input input {
+    display: none;
+  }
+  
+  .radio-input {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    
+    width: 320px;
+  }
+  
+  .info {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .question {
+    color: rgb(49, 49, 49);
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 800;
+  }
+  
+  .steps {
+    background-color: rgb(0, 0, 0);
+    padding: 4px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+  }
+  
+  .radio-input  label {
+    display: flex;
+    background-color: #fff;
+    padding: 14px;
+    margin: 8px 0 0 0;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(187, 187, 187, 0.164);
+    color: #000;
+    transition: .3s ease;
+  }
+  .radio-input  label:hover {
+    background-color: rgba(24, 24, 24, 0.13);
+    border: 1px solid #bbb;
+  }
+  
+  .result {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    display: none;
+    transition: display .4s ease;
+  }
+  
+  .result.successo {
+    color: green;
+  }
+  
+  .result.erroro {
+    color: red;
+  }
+  
+  .radio-input input:checked + label {
+    border-color: red;
+    color: red;
+  }
+  
+  .radio-input input[value="value-222222"]:checked + label {
+    border-color: rgb(22, 245, 22);
+    color: rgb(16, 184, 16);
+  }
+  
+  .radio-input:has(input[value="value-222222"]:checked) .result.successo{
+    display: flex;
+  }
+  
+  .radio-input:has(input:not([value="value-222222"]):checked ) .result.erroro {
+    display: flex;
+  }
+  .q{
+    margin-top: 5vh;
+  }
+/**/
+.card-title {
+  color: #262626;
+  font-size: 1.5em;
+  line-height: normal;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+.small-desc {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #452c2c;
+  margin-left: 27px;
+}
+
+.small-desc {
+  font-size: 1em;
+}
+
+.go-corner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  background: linear-gradient(135deg, #6293c8, #384c6c);
+  border-radius: 0 4px 0 32px;
+}
+
+.go-arrow {
+  margin-top: -4px;
+  margin-right: -4px;
+  color: white;
+  font-family: courier, sans;
+}
+
+.card {
+  display: block;
+  position: relative;
+  max-width: 350px;
+  max-height: 320px;
+  background-color: #f2f8f9;
+  border-radius: 10px;
+  padding: 2em 1.2em;
+  margin: 12px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #c3e6ec, #a7d1d9);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -16px;
+  right: -16px;
+  background: linear-gradient(135deg, #364a60, #384c6c);
+  height: 32px;
+  width: 32px;
+  border-radius: 32px;
+  transform: scale(1);
+  transform-origin: 50% 50%;
+  transition: transform 0.35s ease-out;
+}
+
+.card:hover:before {
+  transform: scale(28);
+}
+
+.card:hover .small-desc {
+  transition: all 0.5s ease-out;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.card:hover .card-title {
+  transition: all 0.5s ease-out;
+  color: #ffffff;
+}
+.cardss{
+  padding-left: 14vw;
+  margin-top: 1vh;
+  padding-top: 7vh;
+}
+.ca{
+  background-color: rgb(210, 210, 241);
+  height:60vh;
+}
+.ca-text{
+  text-align: center;
+  padding-top: 30px;
+  font-weight: 800;
+  color: #ffffff;
+}
+.last{
+  background-color: #6f99b9;
+  height:60vh;
+}
+.logo-para{
+  margin-left: 1vw;
+  margin-top: 2vh;
+  font-weight: 700;
+}
+.logo-items{
+  margin-top: 30px;
+  margin-left: 15vw;
+  color:white;
+}
+.k{
+  margin-right: 10vw;
+}
+.nav-imgtwo{
+  margin-top: 10px;
+}
+.wrapper {
+  width: 200px;
+  height: 60px;
+  position: relative;
+  z-index: 1;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #fff;
+  left: 15%;
+  transform-origin: 50%;
+  animation: circle7124 .5s alternate infinite ease;
+}
+
+@keyframes circle7124 {
+  0% {
+    top: 60px;
+    height: 5px;
+    border-radius: 50px 50px 25px 25px;
+    transform: scaleX(1.7);
+  }
+
+  40% {
+    height: 20px;
+    border-radius: 50%;
+    transform: scaleX(1);
+  }
+
+  100% {
+    top: 0%;
+  }
+}
+
+.circle:nth-child(2) {
+  left: 45%;
+  animation-delay: .2s;
+}
+
+.circle:nth-child(3) {
+  left: auto;
+  right: 15%;
+  animation-delay: .3s;
+}
+
+.shadow {
+  width: 20px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,0.9);
+  position: absolute;
+  top: 62px;
+  transform-origin: 50%;
+  z-index: -1;
+  left: 15%;
+  filter: blur(1px);
+  animation: shadow046 .5s alternate infinite ease;
+}
+
+@keyframes shadow046 {
+  0% {
+    transform: scaleX(1.5);
+  }
+
+  40% {
+    transform: scaleX(1);
+    opacity: .7;
+  }
+
+  100% {
+    transform: scaleX(.2);
+    opacity: .4;
+  }
+}
+
+.shadow:nth-child(4) {
+  left: 45%;
+  animation-delay: .2s
+}
+
+.shadow:nth-child(5) {
+  left: auto;
+  right: 15%;
+  animation-delay: .3s;
+}
+.all{
+  padding-top:40px;
+}
+.copy{
+  text-align: center;
+  padding-top: 10vh;
+}

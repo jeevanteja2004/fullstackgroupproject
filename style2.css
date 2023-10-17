@@ -1,0 +1,898 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+/*navbar*/
+.nav-bar{
+    background-color: rgb(148, 148, 244);
+    height: 70px;
+    border-radius: 20px;
+}
+.nav-img{
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+    margin-left:12vw;
+    margin-top: 5px;
+}
+
+.about{
+    margin-left: 2vw;
+}
+.coding-chef{
+    margin-left:1vw;
+    margin-top: 3vh;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 900;
+}
+.person{
+    margin-left:3vw;
+}
+.list{
+        display:flex;
+        list-style-type: none;
+        margin-left: 24vw;
+        margin-top:2vh;
+        margin-right:20px;
+        font-weight: 600;
+        
+}
+.list a{
+        color:rgb(9, 9, 9);
+        margin-left:10px;
+        font-size:20px;
+        
+        border-bottom:5px solid transparent;
+        transition:all .55s ease;
+        text-decoration: none;
+}
+.list a:hover{
+        border-bottom: #fff;
+        background-color: rgb(113, 113, 244);
+        border-radius: 10px;
+        text-decoration: none;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:#0d0c0c;
+    }
+/*pagethree*/
+.question-head{
+    margin-left:13vw;
+    margin-top:9vh;
+}
+.questiontext{
+    font-weight:800;
+    color: rgb(52, 162, 162);
+}
+.radio-input input {
+    display: none;
+  }
+  
+  .radio-input {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    width: 320px;
+  }
+  
+  .info {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .question {
+    color: rgb(49, 49, 49);
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 800;
+  }
+  
+  .steps {
+    background-color: rgb(0, 0, 0);
+    padding: 4px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+  }
+  
+  .radio-input  label {
+    display: flex;
+    background-color: #fff;
+    padding: 14px;
+    margin: 8px 0 0 0;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(187, 187, 187, 0.164);
+    color: #000;
+    transition: .3s ease;
+  }
+  .radio-input  label:hover {
+    background-color: rgba(24, 24, 24, 0.13);
+    border: 1px solid #bbb;
+  }
+  
+  .result {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    display: none;
+    transition: display .4s ease;
+  }
+  
+  .result.success {
+    color: green;
+  }
+  
+  .result.error {
+    color: red;
+  }
+  
+  .radio-input input:checked + label {
+    border-color: red;
+    color: red;
+  }
+  
+  .radio-input input[value="value-2"]:checked + label {
+    border-color: rgb(22, 245, 22);
+    color: rgb(16, 184, 16);
+  }
+  
+  .radio-input:has(input[value="value-2"]:checked) .result.success {
+    display: flex;
+  }
+  
+  .radio-input:has(input:not([value="value-2"]):checked ) .result.error {
+    display: flex;
+  }
+/*second*/
+
+.radio-input input {
+    display: none;
+  }
+  
+  .radio-input {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    width: 320px;
+  }
+  
+  .info {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .question {
+    color: rgb(49, 49, 49);
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 800;
+  }
+  
+  .steps {
+    background-color: rgb(0, 0, 0);
+    padding: 4px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+  }
+  
+  .radio-input  label {
+    display: flex;
+    background-color: #fff;
+    padding: 14px;
+    margin: 8px 0 0 0;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(187, 187, 187, 0.164);
+    color: #000;
+    transition: .3s ease;
+  }
+  .radio-input  label:hover {
+    background-color: rgba(24, 24, 24, 0.13);
+    border: 1px solid #bbb;
+  }
+  
+  .result {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    display: none;
+    transition: display .4s ease;
+  }
+  
+  .result.successs {
+    color: green;
+  }
+  
+  .result.errorr {
+    color: red;
+  }
+  
+  .radio-input input:checked + label {
+    border-color: red;
+    color: red;
+  }
+  
+  .radio-input input[value="value-11"]:checked + label {
+    border-color: rgb(22, 245, 22);
+    color: rgb(16, 184, 16);
+  }
+  
+  .radio-input:has(input[value="value-11"]:checked) .result.successs{
+    display: flex;
+  }
+  
+  .radio-input:has(input:not([value="value-11"]):checked ) .result.errorr {
+    display: flex;
+  }
+  /**/
+  .radio-input input {
+    display: none;
+  }
+  
+  .radio-input {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    width: 320px;
+  }
+  
+  .info {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .question {
+    color: rgb(49, 49, 49);
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 800;
+  }
+  
+  .steps {
+    background-color: rgb(0, 0, 0);
+    padding: 4px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+  }
+  
+  .radio-input  label {
+    display: flex;
+    background-color: #fff;
+    padding: 14px;
+    margin: 8px 0 0 0;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(187, 187, 187, 0.164);
+    color: #000;
+    transition: .3s ease;
+  }
+  .radio-input  label:hover {
+    background-color: rgba(24, 24, 24, 0.13);
+    border: 1px solid #bbb;
+  }
+  
+  .result {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    display: none;
+    transition: display .4s ease;
+  }
+  
+  .result.successss {
+    color: green;
+  }
+  
+  .result.errorrr {
+    color: red;
+  }
+  
+  .radio-input input:checked + label {
+    border-color: red;
+    color: red;
+  }
+  
+  .radio-input input[value="value-333"]:checked + label {
+    border-color: rgb(22, 245, 22);
+    color: rgb(16, 184, 16);
+  }
+  
+  .radio-input:has(input[value="value-333"]:checked) .result.successss{
+    display: flex;
+  }
+  
+  .radio-input:has(input:not([value="value-333"]):checked ) .result.errorrr {
+    display: flex;
+  }
+  /**/
+  .radio-input input {
+    display: none;
+  }
+  
+  .radio-input {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+   
+    width: 320px;
+  }
+  
+  .info {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .question {
+    color: rgb(49, 49, 49);
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 800;
+  }
+  
+  .steps {
+    background-color: rgb(0, 0, 0);
+    padding: 4px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+  }
+  
+  .radio-input  label {
+    display: flex;
+    background-color: #fff;
+    padding: 14px;
+    margin: 8px 0 0 0;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(187, 187, 187, 0.164);
+    color: #000;
+    transition: .3s ease;
+  }
+  .radio-input  label:hover {
+    background-color: rgba(24, 24, 24, 0.13);
+    border: 1px solid #bbb;
+  }
+  
+  .result {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    display: none;
+    transition: display .4s ease;
+  }
+  
+  .result.successs {
+    color: green;
+  }
+  
+  .result.errorr {
+    color: red;
+  }
+  
+  .radio-input input:checked + label {
+    border-color: red;
+    color: red;
+  }
+  
+  .radio-input input[value="value-11"]:checked + label {
+    border-color: rgb(22, 245, 22);
+    color: rgb(16, 184, 16);
+  }
+  
+  .radio-input:has(input[value="value-11"]:checked) .result.successs{
+    display: flex;
+  }
+  
+  .radio-input:has(input:not([value="value-11"]):checked ) .result.errorr {
+    display: flex;
+  }
+  /**/
+  .radio-input input {
+    display: none;
+  }
+  
+  .radio-input {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    
+    width: 320px;
+  }
+  
+  .info {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .question {
+    color: rgb(49, 49, 49);
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 800;
+  }
+  
+  .steps {
+    background-color: rgb(0, 0, 0);
+    padding: 4px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+  }
+  
+  .radio-input  label {
+    display: flex;
+    background-color: #fff;
+    padding: 14px;
+    margin: 8px 0 0 0;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(187, 187, 187, 0.164);
+    color: #000;
+    transition: .3s ease;
+  }
+  .radio-input  label:hover {
+    background-color: rgba(24, 24, 24, 0.13);
+    border: 1px solid #bbb;
+  }
+  
+  .result {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    display: none;
+    transition: display .4s ease;
+  }
+  
+  .result.successsss{
+    color: green;
+  }
+  
+  .result.errorrrrr {
+    color: red;
+  }
+  
+  .radio-input input:checked + label {
+    border-color: red;
+    color: red;
+  }
+  
+  .radio-input input[value="value-1111"]:checked + label {
+    border-color: rgb(22, 245, 22);
+    color: rgb(16, 184, 16);
+  }
+  
+  .radio-input:has(input[value="value-1111"]:checked) .result.successsss{
+    display: flex;
+  }
+  
+  .radio-input:has(input:not([value="value-1111"]):checked ) .result.errorrrrr {
+    display: flex;
+  }
+/*five*/
+.radio-input input {
+    display: none;
+  }
+  
+  .radio-input {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+ 
+    width: 320px;
+  }
+  
+  .info {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .question {
+    color: rgb(49, 49, 49);
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 800;
+  }
+  
+  .steps {
+    background-color: rgb(0, 0, 0);
+    padding: 4px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+  }
+  
+  .radio-input  label {
+    display: flex;
+    background-color: #fff;
+    padding: 14px;
+    margin: 8px 0 0 0;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(187, 187, 187, 0.164);
+    color: #000;
+    transition: .3s ease;
+  }
+  .radio-input  label:hover {
+    background-color: rgba(24, 24, 24, 0.13);
+    border: 1px solid #bbb;
+  }
+  
+  .result {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    display: none;
+    transition: display .4s ease;
+  }
+  
+  .result.successs {
+    color: green;
+  }
+  
+  .result.errorr {
+    color: red;
+  }
+  
+  .radio-input input:checked + label {
+    border-color: red;
+    color: red;
+  }
+  
+  .radio-input input[value="value-11"]:checked + label {
+    border-color: rgb(22, 245, 22);
+    color: rgb(16, 184, 16);
+  }
+  
+  .radio-input:has(input[value="value-11"]:checked) .result.successs{
+    display: flex;
+  }
+  
+  .radio-input:has(input:not([value="value-11"]):checked ) .result.errorr {
+    display: flex;
+  }
+  /**/
+  .radio-input input {
+    display: none;
+  }
+  
+  .radio-input {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+  
+    width: 320px;
+  }
+  
+  .info {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .question {
+    color: rgb(49, 49, 49);
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 800;
+  }
+  
+  .steps {
+    background-color: rgb(0, 0, 0);
+    padding: 4px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+  }
+  
+  .radio-input  label {
+    display: flex;
+    background-color: #fff;
+    padding: 14px;
+    margin: 8px 0 0 0;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(187, 187, 187, 0.164);
+    color: #000;
+    transition: .3s ease;
+  }
+  .radio-input  label:hover {
+    background-color: rgba(24, 24, 24, 0.13);
+    border: 1px solid #bbb;
+  }
+  
+  .result {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    display: none;
+    transition: display .4s ease;
+  }
+  
+  .result.successssss {
+    color: green;
+  }
+  
+  .result.errorrrrrr {
+    color: red;
+  }
+  
+  .radio-input input:checked + label {
+    border-color: red;
+    color: red;
+  }
+  
+  .radio-input input[value="value-22222"]:checked + label {
+    border-color: rgb(22, 245, 22);
+    color: rgb(16, 184, 16);
+  }
+  
+  .radio-input:has(input[value="value-22222"]:checked) .result.successssss{
+    display: flex;
+  }
+  
+  .radio-input:has(input:not([value="value-22222"]):checked ) .result.errorrrrrr {
+    display: flex;
+  }
+/*six*/
+.radio-input input {
+    display: none;
+  }
+  
+  .radio-input {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    
+    width: 320px;
+  }
+  
+  .info {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .question {
+    color: rgb(49, 49, 49);
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 800;
+  }
+  
+  .steps {
+    background-color: rgb(0, 0, 0);
+    padding: 4px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+  }
+  
+  .radio-input  label {
+    display: flex;
+    background-color: #fff;
+    padding: 14px;
+    margin: 8px 0 0 0;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(187, 187, 187, 0.164);
+    color: #000;
+    transition: .3s ease;
+  }
+  .radio-input  label:hover {
+    background-color: rgba(24, 24, 24, 0.13);
+    border: 1px solid #bbb;
+  }
+  
+  .result {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    display: none;
+    transition: display .4s ease;
+  }
+  
+  .result.successs {
+    color: green;
+  }
+  
+  .result.errorr {
+    color: red;
+  }
+  
+  .radio-input input:checked + label {
+    border-color: red;
+    color: red;
+  }
+  
+  .radio-input input[value="value-11"]:checked + label {
+    border-color: rgb(22, 245, 22);
+    color: rgb(16, 184, 16);
+  }
+  
+  .radio-input:has(input[value="value-11"]:checked) .result.successs{
+    display: flex;
+  }
+  
+  .radio-input:has(input:not([value="value-11"]):checked ) .result.errorr {
+    display: flex;
+  }
+  /**/
+  .radio-input input {
+    display: none;
+  }
+  
+  .radio-input {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    
+    width: 320px;
+  }
+  
+  .info {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .question {
+    color: rgb(49, 49, 49);
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 800;
+  }
+  
+  .steps {
+    background-color: rgb(0, 0, 0);
+    padding: 4px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+  }
+  
+  .radio-input  label {
+    display: flex;
+    background-color: #fff;
+    padding: 14px;
+    margin: 8px 0 0 0;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(187, 187, 187, 0.164);
+    color: #000;
+    transition: .3s ease;
+  }
+  .radio-input  label:hover {
+    background-color: rgba(24, 24, 24, 0.13);
+    border: 1px solid #bbb;
+  }
+  
+  .result {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    display: none;
+    transition: display .4s ease;
+  }
+  
+  .result.successo {
+    color: green;
+  }
+  
+  .result.erroro {
+    color: red;
+  }
+  
+  .radio-input input:checked + label {
+    border-color: red;
+    color: red;
+  }
+  
+  .radio-input input[value="value-222222"]:checked + label {
+    border-color: rgb(22, 245, 22);
+    color: rgb(16, 184, 16);
+  }
+  
+  .radio-input:has(input[value="value-222222"]:checked) .result.successo{
+    display: flex;
+  }
+  
+  .radio-input:has(input:not([value="value-222222"]):checked ) .result.erroro {
+    display: flex;
+  }
+  .q{
+    margin-top: 5vh;
+  }
+.o{
+    margin-left: 10vw;
+    margin-top:6vh;
+    
+}
+.chat-bot-container{
+    width:40vw;
+    margin-left:90px;
+    margin-top: 150px;
+   
+}
+.clarify{
+    font-weight:800;
+    color:rgb(237, 237, 95)
+}
